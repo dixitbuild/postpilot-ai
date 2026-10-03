@@ -19,8 +19,8 @@ def extract_metadata(post):
     return {**post, **metadata}
 
 
-def process_posts():
-    posts = load_posts()
+def process_posts(raw_post_path=RAW_POST_PATH):
+    posts = load_posts(raw_post_path)
     processed_posts = []
     for post in posts:
         processed_posts.append(extract_metadata(post))
@@ -28,5 +28,5 @@ def process_posts():
 
 
 if __name__ == "__main__":
-    for post in process_posts():
+    for post in process_posts(RAW_POST_PATH):
         print(post)
