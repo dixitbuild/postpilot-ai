@@ -8,6 +8,33 @@ It uses [Groq](https://groq.com) for the LLM and [Streamlit](https://streamlit.i
 
 The project runs in two steps.
 
+```mermaid
+flowchart TD
+    subgraph step1["Step 1: Process the raw posts (pocess_post.py)"]
+        A[("data/raw_post.json")] --> B["Load posts"]
+        B --> C["For each post: count lines, words and characters"]
+        C --> D["LLM call per post: detect language and pick up to 3 tags"]
+        D --> E["Collect all unique tags"]
+        E --> F["One LLM call: merge similar tags<br/>e.g. Job Hunting, Job Switch → Job Search"]
+        F --> G["Replace each post's tags with the merged tags"]
+        G --> H[("data/enriched_post.json")]
+    end
+
+    subgraph step2["Step 2: Generate a new post (main.py)"]
+        H --> I["FewShotPosts loads posts into a pandas DataFrame"]
+        I --> J["Dashboard options:<br/>Topic, Influencer, Size, Language"]
+        J --> K["User picks options and clicks Generate"]
+        K --> L["Find up to 3 matching example posts<br/>loosen filters if none match"]
+        L --> M["Build prompt with choices and examples"]
+        M --> N["LLM call: write the new post"]
+        N --> O["Show the post in the dashboard"]
+    end
+
+    Groq{{"Groq LLM (llm_helper.py)"}} -.-> D
+    Groq -.-> F
+    Groq -.-> N
+```
+
 ### Step 1: Process the raw posts
 
 [process_data/pocess_post.py](process_data/pocess_post.py) reads the raw posts from `data/raw_post.json` and adds metadata to each one:
