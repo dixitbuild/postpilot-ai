@@ -122,11 +122,19 @@ def process_posts(raw_post_path=RAW_POST_PATH):
         if i >5:
             break
         processed_posts.append(extract_metadata(post))
+
+    unified_tags = get_unified_tags(processed_posts)
+    for post in processed_posts:
+        new_tags = []
+        for tag in post["tags"]:
+            unified_tag = unified_tags.get(tag, tag)
+            if unified_tag not in new_tags:
+                new_tags.append(unified_tag)
+        post["tags"] = new_tags
     return processed_posts
 
 
 if __name__ == "__main__":
     processed_posts = process_posts(RAW_POST_PATH)
     for post in processed_posts:
-        print(post)
-    print(get_unified_tags(processed_posts))
+        print(post["name"], post["tags"])
