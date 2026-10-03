@@ -48,7 +48,7 @@
     "language": "English",
     "tags": [
       "Innovation",
-      "Customer Experience",
+      "Customer Insight",
       "Leadership"
     ]
   },
@@ -77,6 +77,210 @@
     "tags": [
       "Growth Mindset",
       "Company Culture"
+    ]
+  },
+  {
+    "name": "Bill Gates",
+    "text": "I just finished reading a fascinating book on climate innovation. The biggest takeaway: we already have many of the tools we need, but scaling them affordably is the real challenge. Here are 3 breakthroughs I'm optimistic about.",
+    "engagement": 41875,
+    "line_count": 1,
+    "word_count": 37,
+    "char_count": 228,
+    "language": "English",
+    "tags": [
+      "Climate Innovation",
+      "Sustainable Technology",
+      "Scaling Solutions"
+    ]
+  },
+  {
+    "name": "Bill Gates",
+    "text": "Vaccines are one of the best investments in human history. Every dollar spent on childhood immunization returns many times over in health and productivity.",
+    "engagement": 30420,
+    "line_count": 1,
+    "word_count": 24,
+    "char_count": 155,
+    "language": "English",
+    "tags": [
+      "Vaccines",
+      "Public Health",
+      "Health Economics"
+    ]
+  },
+  {
+    "name": "Bill Gates",
+    "text": "AI tutors could give every student in the world access to personalized learning. This is one of the most exciting uses of the technology I've seen.",
+    "engagement": 36780,
+    "line_count": 1,
+    "word_count": 26,
+    "char_count": 147,
+    "language": "English",
+    "tags": [
+      "Education Technology",
+      "Artificial Intelligence"
+    ]
+  },
+  {
+    "name": "Sundar Pichai",
+    "text": "AI is one of the most profound technologies humanity is working on. Our responsibility is to make it helpful for everyone, while building it boldly and responsibly. Excited to share what our teams have been working on.",
+    "engagement": 37620,
+    "line_count": 1,
+    "word_count": 37,
+    "char_count": 218,
+    "language": "English",
+    "tags": [
+      "Artificial Intelligence",
+      "Technology Ethics",
+      "Innovation"
+    ]
+  },
+  {
+    "name": "Sundar Pichai",
+    "text": "I grew up in Chennai with limited access to technology. Getting my first phone changed my life. That's why making technology accessible matters so much to me.",
+    "engagement": 42350,
+    "line_count": 1,
+    "word_count": 27,
+    "char_count": 158,
+    "language": "English",
+    "tags": [
+      "Digital Inclusion",
+      "Social Impact"
+    ]
+  },
+  {
+    "name": "Sundar Pichai",
+    "text": "Quantum computing just took another step forward. The problems we'll be able to solve in medicine and materials science are truly exciting.",
+    "engagement": 26190,
+    "line_count": 1,
+    "word_count": 22,
+    "char_count": 139,
+    "language": "English",
+    "tags": [
+      "Quantum Computing",
+      "Healthcare Innovation",
+      "Materials Science"
+    ]
+  },
+  {
+    "name": "Simon Sinek",
+    "text": "Leaders are not responsible for the job. Leaders are responsible for the people who are responsible for the job. Take care of your people, and they will take care of the work.",
+    "engagement": 29480,
+    "line_count": 1,
+    "word_count": 32,
+    "char_count": 175,
+    "language": "English",
+    "tags": [
+      "Leadership",
+      "People Management"
+    ]
+  },
+  {
+    "name": "Simon Sinek",
+    "text": "People don't buy what you do, they buy why you do it. If your team can't explain your why, your customers won't feel it either.",
+    "engagement": 31870,
+    "line_count": 1,
+    "word_count": 25,
+    "char_count": 127,
+    "language": "English",
+    "tags": [
+      "Leadership",
+      "Branding",
+      "Customer Experience"
+    ]
+  },
+  {
+    "name": "Simon Sinek",
+    "text": "Friendship at work matters. A team that trusts each other will outperform a team of talented strangers every single time.",
+    "engagement": 24560,
+    "line_count": 1,
+    "word_count": 20,
+    "char_count": 121,
+    "language": "English",
+    "tags": [
+      "Teamwork",
+      "Company Culture"
+    ]
+  },
+  {
+    "name": "Gary Vaynerchuk",
+    "text": "Stop worrying about what people think of you. Seriously. The amount of time you waste caring about other people's opinions is the time you could be building your dream. Patience plus execution. That's the game.",
+    "engagement": 26790,
+    "line_count": 1,
+    "word_count": 35,
+    "char_count": 210,
+    "language": "English",
+    "tags": [
+      "Personal Growth",
+      "Productivity",
+      "Growth Mindset"
+    ]
+  },
+  {
+    "name": "Gary Vaynerchuk",
+    "text": "Attention is the asset. Wherever people's eyeballs are, that's where your brand needs to be. Right now, that's short-form video.",
+    "engagement": 23410,
+    "line_count": 1,
+    "word_count": 20,
+    "char_count": 128,
+    "language": "English",
+    "tags": [
+      "Branding",
+      "Social Media",
+      "Marketing"
+    ]
+  },
+  {
+    "name": "Gary Vaynerchuk",
+    "text": "Kindness is a strategy. Being nice in business isn't weakness. It's the long game, and the long game always wins.",
+    "engagement": 21980,
+    "line_count": 1,
+    "word_count": 20,
+    "char_count": 113,
+    "language": "English",
+    "tags": [
+      "Business Strategy",
+      "Leadership",
+      "Kindness"
+    ]
+  },
+  {
+    "name": "Richard Branson",
+    "text": "If somebody offers you an amazing opportunity but you are not sure you can do it, say yes, then learn how to do it later. Some of my best adventures started exactly this way.",
+    "engagement": 34110,
+    "line_count": 1,
+    "word_count": 34,
+    "char_count": 174,
+    "language": "English",
+    "tags": [
+      "Career Advice",
+      "Personal Growth"
+    ]
+  },
+  {
+    "name": "Richard Branson",
+    "text": "Train people well enough so they can leave, treat them well enough so they don't want to. Your employees come first, customers second.",
+    "engagement": 37620,
+    "line_count": 1,
+    "word_count": 23,
+    "char_count": 134,
+    "language": "English",
+    "tags": [
+      "Employee Retention",
+      "Leadership"
+    ]
+  },
+  {
+    "name": "Richard Branson",
+    "text": "Just spent a beautiful morning kitesurfing before work. Taking care of your body and mind is the best business decision you can make.",
+    "engagement": 22140,
+    "line_count": 1,
+    "word_count": 23,
+    "char_count": 133,
+    "language": "English",
+    "tags": [
+      "Wellness",
+      "Work-Life Balance",
+      "Personal Growth"
     ]
   }
 ]

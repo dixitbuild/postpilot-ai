@@ -125,7 +125,7 @@ def process_posts(raw_post_path=RAW_POST_PATH, output_path=ENRICHED_POST_PATH):
     posts = load_posts(raw_post_path)
     processed_posts = []
     for i, post in enumerate(posts):
-        if i >5:
+        if i > 20: # Limit to 21 posts for testing; we will ran out of tokens if we process all 1000 posts at once. We can remove this limit later.
             break
         processed_posts.append(extract_metadata(post))
 
