@@ -44,6 +44,32 @@ LinkedIn post:
 \"\"\"
 """
 
+UNIFY_TAGS_PROMPT_TEMPLATE = """You are an expert content taxonomist. Below is a list of topic tags collected from many LinkedIn posts. Many of them mean the same thing but are worded differently. Your job is to merge tags with the same meaning into one unified tag.
+
+Examples of how to merge:
+- "Job Hunting", "Job Search", "Job Switch" and "Job Seekers" all point to "Job Search"
+- "Inspiration", "Drive" and "Motivation" all point to "Motivation"
+- "Personal Growth", "Self Improvement" and "Self Development" all point to "Personal Growth"
+
+Rules:
+1. Every tag in the input list must appear exactly once as a key in the output, spelled exactly as given.
+2. The value for each key is the unified tag it belongs to.
+3. Merge tags only when they clearly mean the same topic. Keep different topics separate, for example "Leadership" and "Management" stay separate, and "Health" and "Mental Health" stay separate.
+4. A tag that has no similar tag maps to itself, for example "Climate Change" maps to "Climate Change".
+5. Unified tags must be 1 to 3 words long and written in Title Case, for example "Job Search", "Personal Finance".
+6. When possible, use one of the existing tags from the list as the unified tag instead of inventing a new one.
+7. Do not use hashtags (#), emojis, or punctuation in unified tags.
+
+Output rules:
+1. Return only a valid JSON object where each key is an input tag and each value is its unified tag.
+2. Do not add any explanation, preamble, or markdown code fences.
+3. The output must follow this format exactly:
+{{"Job Hunting": "Job Search", "Job Switch": "Job Search", "Inspiration": "Motivation", "Motivation": "Motivation"}}
+
+Tags:
+{tags}
+"""
+
 
 def load_posts(raw_post_path):
     with open(raw_post_path, encoding="utf-8") as f:
@@ -80,6 +106,15 @@ def extract_metadata(post):
     return {**post, **metadata}
 
 
+def get_unified_tags(processed_posts):
+    unique_tags = set()
+    for post in processed_posts:
+        unique_tags.update(post["tags"])
+
+    prompt = UNIFY_TAGS_PROMPT_TEMPLATE.format(tags=", ".join(sorted(unique_tags)))
+    return call_llm(prompt)
+
+
 def process_posts(raw_post_path=RAW_POST_PATH):
     posts = load_posts(raw_post_path)
     processed_posts = []
@@ -91,5 +126,7 @@ def process_posts(raw_post_path=RAW_POST_PATH):
 
 
 if __name__ == "__main__":
-    for post in process_posts(RAW_POST_PATH):
+    processed_posts = process_posts(RAW_POST_PATH)
+    for post in processed_posts:
         print(post)
+    print(get_unified_tags(processed_posts))
