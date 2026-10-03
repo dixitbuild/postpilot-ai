@@ -1,0 +1,902 @@
+[
+  {
+    "name": "Elon Musk",
+    "text": "The best part is no part. The best process is no process. Before you optimize anything, ask whether it should exist at all. Most engineering teams spend years perfecting things that should have been deleted.",
+    "engagement": 48210
+  },
+  {
+    "name": "Elon Musk",
+    "text": "Making life multiplanetary is the insurance policy for consciousness. Every rocket we land and reuse brings that future a little closer.",
+    "engagement": 51230
+  },
+  {
+    "name": "Elon Musk",
+    "text": "Hiring tip: look for evidence of exceptional ability, not degrees. Ask candidates about the hardest problem they solved and how they solved it.",
+    "engagement": 39870
+  },
+  {
+    "name": "Satya Nadella",
+    "text": "Empathy is not a soft skill. It is the core of innovation. When we truly understand the unmet needs of our customers, we build products that matter. Grateful to our teams who lead with curiosity every day.",
+    "engagement": 32540
+  },
+  {
+    "name": "Satya Nadella",
+    "text": "Every company is now a software company. The question is not whether to adopt AI, but how fast you can build the culture to use it well.",
+    "engagement": 28940
+  },
+  {
+    "name": "Satya Nadella",
+    "text": "A growth mindset beats a know-it-all culture. We moved from being know-it-alls to learn-it-alls, and it changed everything.",
+    "engagement": 35610
+  },
+  {
+    "name": "Bill Gates",
+    "text": "I just finished reading a fascinating book on climate innovation. The biggest takeaway: we already have many of the tools we need, but scaling them affordably is the real challenge. Here are 3 breakthroughs I'm optimistic about.",
+    "engagement": 41875
+  },
+  {
+    "name": "Bill Gates",
+    "text": "Vaccines are one of the best investments in human history. Every dollar spent on childhood immunization returns many times over in health and productivity.",
+    "engagement": 30420
+  },
+  {
+    "name": "Bill Gates",
+    "text": "AI tutors could give every student in the world access to personalized learning. This is one of the most exciting uses of the technology I've seen.",
+    "engagement": 36780
+  },
+  {
+    "name": "Sundar Pichai",
+    "text": "AI is one of the most profound technologies humanity is working on. Our responsibility is to make it helpful for everyone, while building it boldly and responsibly. Excited to share what our teams have been working on.",
+    "engagement": 37620
+  },
+  {
+    "name": "Sundar Pichai",
+    "text": "I grew up in Chennai with limited access to technology. Getting my first phone changed my life. That's why making technology accessible matters so much to me.",
+    "engagement": 42350
+  },
+  {
+    "name": "Sundar Pichai",
+    "text": "Quantum computing just took another step forward. The problems we'll be able to solve in medicine and materials science are truly exciting.",
+    "engagement": 26190
+  },
+  {
+    "name": "Simon Sinek",
+    "text": "Leaders are not responsible for the job. Leaders are responsible for the people who are responsible for the job. Take care of your people, and they will take care of the work.",
+    "engagement": 29480
+  },
+  {
+    "name": "Simon Sinek",
+    "text": "People don't buy what you do, they buy why you do it. If your team can't explain your why, your customers won't feel it either.",
+    "engagement": 31870
+  },
+  {
+    "name": "Simon Sinek",
+    "text": "Friendship at work matters. A team that trusts each other will outperform a team of talented strangers every single time.",
+    "engagement": 24560
+  },
+  {
+    "name": "Gary Vaynerchuk",
+    "text": "Stop worrying about what people think of you. Seriously. The amount of time you waste caring about other people's opinions is the time you could be building your dream. Patience plus execution. That's the game.",
+    "engagement": 26790
+  },
+  {
+    "name": "Gary Vaynerchuk",
+    "text": "Attention is the asset. Wherever people's eyeballs are, that's where your brand needs to be. Right now, that's short-form video.",
+    "engagement": 23410
+  },
+  {
+    "name": "Gary Vaynerchuk",
+    "text": "Kindness is a strategy. Being nice in business isn't weakness. It's the long game, and the long game always wins.",
+    "engagement": 21980
+  },
+  {
+    "name": "Richard Branson",
+    "text": "If somebody offers you an amazing opportunity but you are not sure you can do it, say yes, then learn how to do it later. Some of my best adventures started exactly this way.",
+    "engagement": 34110
+  },
+  {
+    "name": "Richard Branson",
+    "text": "Train people well enough so they can leave, treat them well enough so they don't want to. Your employees come first, customers second.",
+    "engagement": 37620
+  },
+  {
+    "name": "Richard Branson",
+    "text": "Just spent a beautiful morning kitesurfing before work. Taking care of your body and mind is the best business decision you can make.",
+    "engagement": 22140
+  },
+  {
+    "name": "Arianna Huffington",
+    "text": "Burnout is not the price we have to pay for success. Sleep is a performance enhancer, not a luxury. Tonight, try putting your phone outside your bedroom and see how different you feel tomorrow.",
+    "engagement": 18950
+  },
+  {
+    "name": "Arianna Huffington",
+    "text": "Microsteps are the key to lasting behavior change. Don't try to overhaul your life overnight. Start with one tiny habit and build from there.",
+    "engagement": 15870
+  },
+  {
+    "name": "Arianna Huffington",
+    "text": "We need to redefine success beyond money and power. Well-being, wisdom, and the ability to give back should be part of the metric.",
+    "engagement": 17230
+  },
+  {
+    "name": "Adam Grant",
+    "text": "Rethinking is a skill. The most successful people aren't the ones who are always right. They're the ones who are quickest to update their views when they discover they're wrong.",
+    "engagement": 22340
+  },
+  {
+    "name": "Adam Grant",
+    "text": "Givers who set boundaries are the most successful people in organizations. Generosity without limits leads to burnout.",
+    "engagement": 25690
+  },
+  {
+    "name": "Adam Grant",
+    "text": "Procrastination is not a time management problem. It's an emotion management problem. We avoid tasks that make us feel bad.",
+    "engagement": 31420
+  },
+  {
+    "name": "Melinda French Gates",
+    "text": "When we invest in women, we invest in families, communities, and entire economies. Progress for women is progress for everyone. Proud to support the leaders making this happen.",
+    "engagement": 19870
+  },
+  {
+    "name": "Melinda French Gates",
+    "text": "Paid family leave isn't a perk. It's essential infrastructure for a healthy economy and healthy families.",
+    "engagement": 16480
+  },
+  {
+    "name": "Melinda French Gates",
+    "text": "To every woman who has been told she's 'too much': you are exactly enough. The world needs your voice.",
+    "engagement": 23950
+  },
+  {
+    "name": "Jeff Weiner",
+    "text": "Compassionate management means putting yourself in someone else's shoes, understanding what they are going through, and then taking action to help. It is the most underrated leadership skill in business.",
+    "engagement": 15430
+  },
+  {
+    "name": "Jeff Weiner",
+    "text": "Clarity of purpose, consistency of message, and courage to make tough calls. That's the formula for leading through uncertainty.",
+    "engagement": 12760
+  },
+  {
+    "name": "Jeff Weiner",
+    "text": "Schedule buffers into your calendar. Time to think is not a luxury for leaders. It is the job.",
+    "engagement": 14390
+  },
+  {
+    "name": "Reid Hoffman",
+    "text": "If you are not embarrassed by the first version of your product, you've launched too late. Ship, learn, iterate. Speed of learning is your biggest competitive advantage as a startup.",
+    "engagement": 21760
+  },
+  {
+    "name": "Reid Hoffman",
+    "text": "Your network is your net worth, but only if you invest in it before you need it. Help others generously, and the network grows naturally.",
+    "engagement": 19840
+  },
+  {
+    "name": "Reid Hoffman",
+    "text": "Blitzscaling is not for every company. Speed over efficiency only makes sense when winner-take-most dynamics are in play.",
+    "engagement": 15620
+  },
+  {
+    "name": "Ryan Roslansky",
+    "text": "Skills are the new currency of the job market. Degrees and titles matter less than what you can actually do. Hiring for skills opens doors for millions of people who were overlooked before.",
+    "engagement": 14280
+  },
+  {
+    "name": "Ryan Roslansky",
+    "text": "AI will change the skills needed for most jobs by 2030. The best thing any professional can do right now is stay curious and keep learning.",
+    "engagement": 16910
+  },
+  {
+    "name": "Ryan Roslansky",
+    "text": "Remote and hybrid work aren't going away. Companies that offer flexibility are attracting a much larger and more diverse talent pool.",
+    "engagement": 13250
+  },
+  {
+    "name": "Indra Nooyi",
+    "text": "Never stop learning. Whatever you do, wherever you are, keep being a lifelong student. The day you think you know it all is the day you begin to fall behind.",
+    "engagement": 27650
+  },
+  {
+    "name": "Indra Nooyi",
+    "text": "Women shouldn't have to choose between career and family. Companies and society must build the support systems that make both possible.",
+    "engagement": 29870
+  },
+  {
+    "name": "Indra Nooyi",
+    "text": "Write letters to the parents of your senior executives. Thanking families for their sacrifices was one of the best things I did as a CEO.",
+    "engagement": 34520
+  },
+  {
+    "name": "Sheryl Sandberg",
+    "text": "Done is better than perfect. Too many talented people hold themselves back waiting for the perfect moment or the perfect plan. Take the step. You can course-correct along the way.",
+    "engagement": 20410
+  },
+  {
+    "name": "Sheryl Sandberg",
+    "text": "Sit at the table. Raise your hand. Your ideas deserve to be heard, and the room is better for hearing them.",
+    "engagement": 22760
+  },
+  {
+    "name": "Sheryl Sandberg",
+    "text": "Grief taught me that resilience is not something we're born with. It's a muscle we build, and we build it together.",
+    "engagement": 26830
+  },
+  {
+    "name": "Tim Cook",
+    "text": "Technology should serve humanity, not the other way around. Privacy is a fundamental human right, and we will keep building products that protect it.",
+    "engagement": 30980
+  },
+  {
+    "name": "Tim Cook",
+    "text": "Accessibility isn't a feature, it's a fundamental part of how we design. Technology should be for everyone.",
+    "engagement": 27540
+  },
+  {
+    "name": "Tim Cook",
+    "text": "Our goal is to leave the world better than we found it. Every product we ship is a step toward being carbon neutral.",
+    "engagement": 24680
+  },
+  {
+    "name": "Jensen Huang",
+    "text": "Accelerated computing and generative AI have reached the tipping point. Every industry is going to be transformed. The companies that embrace this shift today will define the next decade.",
+    "engagement": 35720
+  },
+  {
+    "name": "Jensen Huang",
+    "text": "I wish upon you ample doses of pain and suffering. Greatness comes from character, and character isn't formed out of smart people, it's formed out of people who suffered.",
+    "engagement": 41290
+  },
+  {
+    "name": "Jensen Huang",
+    "text": "Every country needs sovereign AI. Your data, your culture, your language should be part of the intelligence you build.",
+    "engagement": 29360
+  },
+  {
+    "name": "Ratan Tata",
+    "text": "I don't believe in taking right decisions. I take decisions and then make them right. Courage and responsibility go hand in hand.",
+    "engagement": 52390
+  },
+  {
+    "name": "Ratan Tata",
+    "text": "Ups and downs in life are very important to keep us going, because a straight line even in an ECG means we are not alive.",
+    "engagement": 58740
+  },
+  {
+    "name": "Ratan Tata",
+    "text": "Take care of the stray animals around you. A bowl of water outside your home in summer can save a life.",
+    "engagement": 46910
+  },
+  {
+    "name": "Mark Cuban",
+    "text": "Work like there is someone working 24 hours a day to take it all away from you. The market doesn't care about your feelings. It cares about the value you create.",
+    "engagement": 17860
+  },
+  {
+    "name": "Mark Cuban",
+    "text": "Healthcare pricing should be transparent. If you can't see the price before you buy, the system is broken.",
+    "engagement": 21560
+  },
+  {
+    "name": "Mark Cuban",
+    "text": "Sales cures all. If you can't sell, you can't build a business. Learn to sell, no matter what role you're in.",
+    "engagement": 18430
+  },
+  {
+    "name": "Brené Brown",
+    "text": "Vulnerability is not winning or losing. It's having the courage to show up and be seen when we have no control over the outcome. That's where real leadership begins.",
+    "engagement": 23140
+  },
+  {
+    "name": "Brené Brown",
+    "text": "Clear is kind. Unclear is unkind. Feeding people half-truths to make them feel better is not leadership.",
+    "engagement": 27390
+  },
+  {
+    "name": "Brené Brown",
+    "text": "Shame cannot survive being spoken. When we share our stories with someone who has earned the right to hear them, shame loses its power.",
+    "engagement": 19860
+  },
+  {
+    "name": "Sam Altman",
+    "text": "The most important thing for a startup founder is to work on something they genuinely care about. Conviction will carry you through the hard years when nobody else believes in your idea.",
+    "engagement": 28930
+  },
+  {
+    "name": "Sam Altman",
+    "text": "The cost of intelligence is falling fast. Products that seemed impossible a year ago are now weekend projects for a single developer.",
+    "engagement": 33740
+  },
+  {
+    "name": "Sam Altman",
+    "text": "Compounding is magic. Look for it everywhere: in your skills, your relationships, and your company's growth.",
+    "engagement": 25180
+  },
+  {
+    "name": "Kunal Shah",
+    "text": "Most people don't want to get rich. They want to feel rich relative to others. Understanding this simple insight explains half of consumer behavior in India.",
+    "engagement": 16540
+  },
+  {
+    "name": "Kunal Shah",
+    "text": "Trust is the most expensive commodity in India. Any business that can reduce the cost of trust will build a massive moat.",
+    "engagement": 19730
+  },
+  {
+    "name": "Kunal Shah",
+    "text": "Delta 4 theory: if your product is 4x better than the existing option, users won't go back. That's when you have something special.",
+    "engagement": 21640
+  },
+  {
+    "name": "Anand Mahindra",
+    "text": "Came across this video of a village innovator who built a water pump from scrap materials. This is the real spirit of India. Let's find a way to support and scale ideas like this!",
+    "engagement": 24670
+  },
+  {
+    "name": "Anand Mahindra",
+    "text": "Spotted this tractor working in a remote field in Bihar at sunrise. This is the real backbone of our nation. Respect to every farmer.",
+    "engagement": 28470
+  },
+  {
+    "name": "Anand Mahindra",
+    "text": "Sunday musings: success is not about how high you climb, but how many people you lift along the way.",
+    "engagement": 22310
+  },
+  {
+    "name": "Marc Benioff",
+    "text": "Business is the greatest platform for change. Companies that put trust, customer success, and equality at the center will outperform those that only chase short-term profit.",
+    "engagement": 13920
+  },
+  {
+    "name": "Marc Benioff",
+    "text": "AI agents are the next frontier for enterprise. Soon, every employee will work alongside digital agents that handle routine tasks.",
+    "engagement": 15270
+  },
+  {
+    "name": "Marc Benioff",
+    "text": "Equal pay for equal work. We audited our salaries and fixed the gaps. Every company can and should do this.",
+    "engagement": 17840
+  },
+  {
+    "name": "Daniel Pink",
+    "text": "Timing isn't everything, but it's a lot. Most of us hit our analytical peak in the morning. Schedule your deep work early and save the meetings for the afternoon slump.",
+    "engagement": 11870
+  },
+  {
+    "name": "Daniel Pink",
+    "text": "Regret is not a sign of weakness. It's a signal pointing us toward what we value most. Use it as a guide.",
+    "engagement": 13460
+  },
+  {
+    "name": "Daniel Pink",
+    "text": "Autonomy, mastery, and purpose are what truly motivate people. Carrots and sticks only work for simple, routine tasks.",
+    "engagement": 15980
+  },
+  {
+    "name": "Narayana Murthy",
+    "text": "Performance leads to recognition. Recognition brings respect. Respect enhances power. Humility and grace in moments of power enhance the dignity of an organization.",
+    "engagement": 31250
+  },
+  {
+    "name": "Narayana Murthy",
+    "text": "Young Indians must be willing to work hard to make our country a developed nation. Discipline and productivity are the foundations of progress.",
+    "engagement": 37820
+  },
+  {
+    "name": "Narayana Murthy",
+    "text": "The real power of money is the power to give it away. Infosys was built on the belief that wealth should be shared with employees.",
+    "engagement": 29640
+  },
+  {
+    "name": "Susan Wojcicki",
+    "text": "Creators are the heart of our platform. Every day, millions of people learn new skills, find community, and build businesses through video. Proud to support this creator economy.",
+    "engagement": 12640
+  },
+  {
+    "name": "Susan Wojcicki",
+    "text": "Diversity in tech is not just a moral issue, it's a business one. Diverse teams build better products for a diverse world.",
+    "engagement": 11730
+  },
+  {
+    "name": "Susan Wojcicki",
+    "text": "Being a working mom of five taught me to prioritize ruthlessly. I was home for dinner every night, and the work still got done.",
+    "engagement": 15890
+  },
+  {
+    "name": "Jack Ma",
+    "text": "Today is hard, tomorrow will be worse, but the day after tomorrow will be sunshine. Most people give up tomorrow night. Never give up.",
+    "engagement": 39580
+  },
+  {
+    "name": "Jack Ma",
+    "text": "When I was young, I applied to over 30 jobs and was rejected by all of them. Rejection is not the end. It's training.",
+    "engagement": 44120
+  },
+  {
+    "name": "Jack Ma",
+    "text": "Before 30, follow a good boss. Before 40, do your own thing. Before 50, focus on what you're good at. After 60, spend time on yourself.",
+    "engagement": 41860
+  },
+  {
+    "name": "Tony Robbins",
+    "text": "Progress equals happiness. It's not about reaching the goal. It's about who you become along the way. Set a goal today that makes you stretch.",
+    "engagement": 19320
+  },
+  {
+    "name": "Tony Robbins",
+    "text": "Where focus goes, energy flows. If you keep focusing on what you don't want, that's exactly what you'll get more of.",
+    "engagement": 20870
+  },
+  {
+    "name": "Tony Robbins",
+    "text": "The quality of your life is the quality of your relationships. Invest in the people who matter most.",
+    "engagement": 18640
+  },
+  {
+    "name": "Oprah Winfrey",
+    "text": "The biggest adventure you can take is to live the life of your dreams. Turn your wounds into wisdom, and surround yourself only with people who are going to lift you higher.",
+    "engagement": 44760
+  },
+  {
+    "name": "Oprah Winfrey",
+    "text": "Reading changed my life. Books showed a little girl from rural Mississippi that there was a whole world waiting for her.",
+    "engagement": 39270
+  },
+  {
+    "name": "Oprah Winfrey",
+    "text": "Doing the best at this moment puts you in the best place for the next moment. Show up fully today.",
+    "engagement": 35420
+  },
+  {
+    "name": "Ankur Warikoo",
+    "text": "I failed at 3 startups before anything worked. Here's what I wish someone told me at 25: your first salary doesn't matter. What you learn in your first 5 years compounds for the next 30.",
+    "engagement": 21450
+  },
+  {
+    "name": "Ankur Warikoo",
+    "text": "5 money rules I follow: 1) Save before you spend. 2) Emergency fund of 6 months. 3) Term insurance, not ULIPs. 4) Index funds for long term. 5) No EMIs for lifestyle.",
+    "engagement": 32570
+  },
+  {
+    "name": "Ankur Warikoo",
+    "text": "Reading 1 book a month changed my life more than any course. Here are the 5 books I'd recommend to anyone in their 20s.",
+    "engagement": 24810
+  },
+  {
+    "name": "Nithin Kamath",
+    "text": "Bootstrapping is underrated. We never raised external money, which forced us to focus on profitability from day one. Constraints breed discipline.",
+    "engagement": 27830
+  },
+  {
+    "name": "Nithin Kamath",
+    "text": "Trading in F&O is not investing. Over 90% of retail traders lose money. Please understand the risks before you trade.",
+    "engagement": 31290
+  },
+  {
+    "name": "Nithin Kamath",
+    "text": "Health is the biggest wealth. After my mild stroke, I realized no amount of success matters if your body gives up on you.",
+    "engagement": 36740
+  },
+  {
+    "name": "Nikhil Kamath",
+    "text": "Most people overestimate what they can do in a year and underestimate what they can do in ten. Pick a direction, stay consistent, and let time do the heavy lifting.",
+    "engagement": 24960
+  },
+  {
+    "name": "Nikhil Kamath",
+    "text": "The best investment I ever made was in my own learning. I dropped out of school, but I never stopped reading.",
+    "engagement": 27360
+  },
+  {
+    "name": "Nikhil Kamath",
+    "text": "Tier-2 and tier-3 cities are where the next wave of Indian consumption will come from. Founders, look beyond the metros.",
+    "engagement": 19580
+  },
+  {
+    "name": "Radhika Gupta",
+    "text": "I was rejected by 7 companies after my first job hunt. Today I lead an asset management company. Rejection is redirection. Keep showing up.",
+    "engagement": 33120
+  },
+  {
+    "name": "Radhika Gupta",
+    "text": "SIP is not a product, it's a habit. Start small, stay consistent, and let compounding work its magic over decades.",
+    "engagement": 28730
+  },
+  {
+    "name": "Radhika Gupta",
+    "text": "I have a crooked neck and was called 'the girl with the broken neck'. Today I speak on stages. Your flaws don't define you.",
+    "engagement": 41860
+  },
+  {
+    "name": "Vineeta Singh",
+    "text": "Building a D2C brand in India taught me one thing: listen to your customer obsessively. Every product we launched came from a customer message in our inbox.",
+    "engagement": 22780
+  },
+  {
+    "name": "Vineeta Singh",
+    "text": "I ran 22 marathons while building a company. Running taught me that the toughest finish lines are crossed one step at a time.",
+    "engagement": 18960
+  },
+  {
+    "name": "Vineeta Singh",
+    "text": "Rejected a 1 crore job offer after IIM to start up. My parents thought I was crazy. Sometimes you have to bet on yourself.",
+    "engagement": 30470
+  },
+  {
+    "name": "Aman Gupta",
+    "text": "When we started, nobody believed an Indian audio brand could compete with global giants. Today, Indians wear Indian. Proud of this team and this journey.",
+    "engagement": 26340
+  },
+  {
+    "name": "Aman Gupta",
+    "text": "Marketing is not about selling a product, it's about building a feeling. People don't buy earphones, they buy a lifestyle.",
+    "engagement": 21730
+  },
+  {
+    "name": "Aman Gupta",
+    "text": "Failed multiple times before boAt worked. Every failure taught me something the next venture needed.",
+    "engagement": 24180
+  },
+  {
+    "name": "Peyush Bansal",
+    "text": "Entrepreneurship is not about having all the answers. It's about asking the right questions and having the courage to act on incomplete information.",
+    "engagement": 19870
+  },
+  {
+    "name": "Peyush Bansal",
+    "text": "India has 50 crore people who need glasses but don't have them. Solving for India means solving for scale and affordability.",
+    "engagement": 17460
+  },
+  {
+    "name": "Peyush Bansal",
+    "text": "Your first 10 employees decide your company's culture. Hire slowly and with a lot of care.",
+    "engagement": 15390
+  },
+  {
+    "name": "Namita Thapar",
+    "text": "Your health is your real wealth. As founders and professionals, we ignore our bodies until it's too late. Book that health check-up this week. Please.",
+    "engagement": 17650
+  },
+  {
+    "name": "Namita Thapar",
+    "text": "Women in business: stop apologizing for being ambitious. Negotiate your salary. Ask for the promotion. You've earned it.",
+    "engagement": 23640
+  },
+  {
+    "name": "Namita Thapar",
+    "text": "Don't fall in love with your idea, fall in love with the problem. Your idea may change, but the problem keeps you going.",
+    "engagement": 16870
+  },
+  {
+    "name": "Falguni Nayar",
+    "text": "I started my company at 50. It is never too late to chase your dream. Age is just a number when your passion is real.",
+    "engagement": 38420
+  },
+  {
+    "name": "Falguni Nayar",
+    "text": "Beauty is about confidence, not perfection. Every product we sell should help a woman feel more like herself.",
+    "engagement": 21940
+  },
+  {
+    "name": "Falguni Nayar",
+    "text": "Leaving a stable banking career after 20 years was the scariest decision of my life. It was also the best one.",
+    "engagement": 34680
+  },
+  {
+    "name": "Harsh Goenka",
+    "text": "Monday motivation: The difference between a boss and a leader? A boss says 'Go!' A leader says 'Let's go!' Which one are you?",
+    "engagement": 15930
+  },
+  {
+    "name": "Harsh Goenka",
+    "text": "Life lesson from a cricket match: you can't control the pitch, but you can control how you play. Same applies to business.",
+    "engagement": 14270
+  },
+  {
+    "name": "Harsh Goenka",
+    "text": "Funny how we spend money we don't have, to buy things we don't need, to impress people we don't like. Think about it.",
+    "engagement": 19860
+  },
+  {
+    "name": "Sandeep Maheshwari",
+    "text": "Don't compare your chapter 1 with someone else's chapter 20. Everyone has their own timeline. Focus on becoming 1% better every single day.",
+    "engagement": 29750
+  },
+  {
+    "name": "Sandeep Maheshwari",
+    "text": "Your mind is your biggest weapon or your biggest enemy. Learn to observe your thoughts instead of believing every one of them.",
+    "engagement": 26340
+  },
+  {
+    "name": "Sandeep Maheshwari",
+    "text": "I failed in many businesses before I started photography. Failure is just feedback. Learn and move on.",
+    "engagement": 22780
+  },
+  {
+    "name": "Raj Shamani",
+    "text": "I've interviewed 300+ founders on my podcast. The common trait among the most successful ones? They are incredibly good at learning from other people's mistakes.",
+    "engagement": 18240
+  },
+  {
+    "name": "Raj Shamani",
+    "text": "Personal branding is not about posting daily. It's about being known for one thing. Pick your niche and own it.",
+    "engagement": 16930
+  },
+  {
+    "name": "Raj Shamani",
+    "text": "Started my first business at 16 with 10,000 rupees. You don't need big money to start, you need big hunger.",
+    "engagement": 20460
+  },
+  {
+    "name": "Shradha Sharma",
+    "text": "Every story matters. In 15 years of telling stories of Indian entrepreneurs, I've learned that resilience is the most beautiful thing about the Indian startup ecosystem.",
+    "engagement": 12860
+  },
+  {
+    "name": "Shradha Sharma",
+    "text": "Women founders received less than 2% of funding last year. We need more investors who believe in her story.",
+    "engagement": 11680
+  },
+  {
+    "name": "Shradha Sharma",
+    "text": "Started YourStory with a laptop and a dream. 15 years later, the dream is still bigger than the laptop.",
+    "engagement": 14250
+  },
+  {
+    "name": "Kiran Mazumdar-Shaw",
+    "text": "Science and innovation are the keys to affordable healthcare for all. India has the talent to become the pharmacy of the world. We must invest in research.",
+    "engagement": 16720
+  },
+  {
+    "name": "Kiran Mazumdar-Shaw",
+    "text": "I started my company in a garage with 10,000 rupees. Banks refused to lend to a woman. Today, we're a global biotech leader.",
+    "engagement": 27930
+  },
+  {
+    "name": "Kiran Mazumdar-Shaw",
+    "text": "Bengaluru's infrastructure needs urgent attention. Our city powers India's tech industry, it deserves world-class roads and transit.",
+    "engagement": 18640
+  },
+  {
+    "name": "Nandan Nilekani",
+    "text": "Digital public infrastructure is India's gift to the world. When technology is built as a public good, it can lift a billion people into the formal economy.",
+    "engagement": 25480
+  },
+  {
+    "name": "Nandan Nilekani",
+    "text": "AI in India won't be about building the biggest models. It will be about using AI to solve real problems for a billion people.",
+    "engagement": 22870
+  },
+  {
+    "name": "Nandan Nilekani",
+    "text": "Aadhaar taught me that big ideas need patient execution. It took years of groundwork before the impact became visible.",
+    "engagement": 19430
+  },
+  {
+    "name": "Sudha Murty",
+    "text": "Simplicity is the best way to live. Money can buy comfort, but not contentment. Help someone today without expecting anything in return.",
+    "engagement": 47390
+  },
+  {
+    "name": "Sudha Murty",
+    "text": "I wore the same saree for years and was never ashamed. What you wear doesn't define your worth. Your character does.",
+    "engagement": 52860
+  },
+  {
+    "name": "Sudha Murty",
+    "text": "Read to your children every night. Stories build imagination, values, and a bond that lasts a lifetime.",
+    "engagement": 38940
+  },
+  {
+    "name": "Vijay Shekhar Sharma",
+    "text": "When we started, people laughed at the idea that a street vendor would accept digital payments. Today, QR codes are everywhere in India. Dream big, India!",
+    "engagement": 23610
+  },
+  {
+    "name": "Vijay Shekhar Sharma",
+    "text": "I came from a small town and couldn't speak English well in college. Language is never a barrier to ambition.",
+    "engagement": 26890
+  },
+  {
+    "name": "Vijay Shekhar Sharma",
+    "text": "Fintech's next big opportunity in India is credit for the small merchant. That's where real inclusion happens.",
+    "engagement": 15720
+  },
+  {
+    "name": "Kunal Bahl",
+    "text": "Startups are a marathon, not a sprint. The founders who survive the tough years are the ones who manage their energy, not just their time.",
+    "engagement": 11980
+  },
+  {
+    "name": "Kunal Bahl",
+    "text": "Investing in early-stage startups taught me that the founder matters more than the idea. Back people, not pitches.",
+    "engagement": 12870
+  },
+  {
+    "name": "Kunal Bahl",
+    "text": "We had to lay off people during our toughest phase. It was the hardest thing I've ever done. Leaders must own their mistakes.",
+    "engagement": 18540
+  },
+  {
+    "name": "Ghazal Alagh",
+    "text": "As a mom and a founder, I've learned that balance is a myth. Some days the company wins, some days family wins. Give yourself grace.",
+    "engagement": 20150
+  },
+  {
+    "name": "Ghazal Alagh",
+    "text": "We started with toxin-free baby products because I couldn't find any for my son. Your biggest problem might be your biggest business.",
+    "engagement": 22460
+  },
+  {
+    "name": "Ghazal Alagh",
+    "text": "Self-taught designer, first-time founder, and now a Shark. Never let a lack of formal training stop you.",
+    "engagement": 17390
+  },
+  {
+    "name": "Anupam Mittal",
+    "text": "Valuation is vanity, profit is sanity, and cash is king. Founders, please learn to read your P&L before chasing your next funding round.",
+    "engagement": 22890
+  },
+  {
+    "name": "Anupam Mittal",
+    "text": "Started a matrimony website in 1997 when internet in India barely existed. Being early is painful, but being early is how you win.",
+    "engagement": 20370
+  },
+  {
+    "name": "Anupam Mittal",
+    "text": "Founders, your pitch deck should answer one question: why will this business make money? Everything else is decoration.",
+    "engagement": 24710
+  },
+  {
+    "name": "Deepinder Goyal",
+    "text": "Building a company is a series of humbling moments. We've made many mistakes, but we kept learning faster than we failed. That's the only real moat.",
+    "engagement": 26070
+  },
+  {
+    "name": "Deepinder Goyal",
+    "text": "We've introduced a policy to support delivery partners with health insurance. They are the backbone of our business.",
+    "engagement": 19840
+  },
+  {
+    "name": "Deepinder Goyal",
+    "text": "Quick commerce is changing how India shops. Ten-minute delivery seemed impossible two years ago. Now it's expected.",
+    "engagement": 22950
+  },
+  {
+    "name": "Ritesh Agarwal",
+    "text": "I started at 17 with no degree and no network. If you have a problem you're obsessed with solving, start now. The best time to begin is today.",
+    "engagement": 30540
+  },
+  {
+    "name": "Ritesh Agarwal",
+    "text": "Spent my teenage years travelling across India staying in budget hotels. That experience became the foundation of my company.",
+    "engagement": 25370
+  },
+  {
+    "name": "Ritesh Agarwal",
+    "text": "Hospitality is not about rooms. It's about making a stranger feel at home. Technology just helps us do that at scale.",
+    "engagement": 16480
+  },
+  {
+    "name": "Bhavish Aggarwal",
+    "text": "India must build for the world, not just for India. We have the engineering talent, the scale, and the ambition. Time to lead in EVs and AI.",
+    "engagement": 19460
+  },
+  {
+    "name": "Bhavish Aggarwal",
+    "text": "Indian languages deserve AI built for them. We're building models that understand Hindi, Tamil, Bengali and more, natively.",
+    "engagement": 21730
+  },
+  {
+    "name": "Bhavish Aggarwal",
+    "text": "Manufacturing is the future of Indian jobs. Every factory we build creates thousands of opportunities.",
+    "engagement": 17860
+  },
+  {
+    "name": "Sanjeev Bikhchandani",
+    "text": "It took us 7 years to break even. Patience is the most underrated quality in an entrepreneur. Don't quit when things are slow.",
+    "engagement": 17380
+  },
+  {
+    "name": "Sanjeev Bikhchandani",
+    "text": "I left a secure job to start a company with no salary for years. If you don't believe in your idea enough to suffer, don't start.",
+    "engagement": 19520
+  },
+  {
+    "name": "Sanjeev Bikhchandani",
+    "text": "Indian students should consider building careers in India. The opportunities here today are bigger than ever.",
+    "engagement": 15340
+  },
+  {
+    "name": "Ishan Sharma",
+    "text": "You don't need a fancy degree to build a career in tech. Pick one skill, build 3 real projects, share your journey online. Opportunities will find you.",
+    "engagement": 14720
+  },
+  {
+    "name": "Ishan Sharma",
+    "text": "Freelancing taught me more than college ever did. Clients pay for results, not degrees. Start with one client.",
+    "engagement": 17840
+  },
+  {
+    "name": "Ishan Sharma",
+    "text": "How I plan my week: 3 big goals, time-blocked deep work, and one day completely off. Productivity is about rest too.",
+    "engagement": 13960
+  },
+  {
+    "name": "Gaur Gopal Das",
+    "text": "Happiness is not about having what you want. It's about wanting what you have. Gratitude turns what we have into enough.",
+    "engagement": 36980
+  },
+  {
+    "name": "Gaur Gopal Das",
+    "text": "Don't let your past define you. Learn from it, but don't live in it. Today is a fresh page.",
+    "engagement": 33470
+  },
+  {
+    "name": "Gaur Gopal Das",
+    "text": "Relationships are like plants. They need regular watering, sunlight, and patience to grow.",
+    "engagement": 29180
+  },
+  {
+    "name": "Uday Kotak",
+    "text": "In banking and in life, trust takes years to build and seconds to break. Protect your reputation like your most valuable asset.",
+    "engagement": 13540
+  },
+  {
+    "name": "Uday Kotak",
+    "text": "Started with 4 people in a small office in 1985. Building an institution takes decades, not years. Patience is everything.",
+    "engagement": 17630
+  },
+  {
+    "name": "Uday Kotak",
+    "text": "India's financial savings are moving from gold and real estate to markets. This shift will define the next decade.",
+    "engagement": 14980
+  },
+  {
+    "name": "Aprameya Radhakrishna",
+    "text": "Hiring tip for early-stage founders: hire for attitude and learning speed. Skills can be taught, ownership cannot.",
+    "engagement": 10870
+  },
+  {
+    "name": "Aprameya Radhakrishna",
+    "text": "Selling my first startup was bittersweet. The money was nice, but missing the team and the chaos was harder than I expected.",
+    "engagement": 12340
+  },
+  {
+    "name": "Aprameya Radhakrishna",
+    "text": "Second-time founders have one big advantage: they know which battles aren't worth fighting.",
+    "engagement": 9870
+  },
+  {
+    "name": "Dhruv Rathee",
+    "text": "Consistency beats talent. I posted videos for years with very few views. The only reason it worked is because I didn't stop.",
+    "engagement": 34260
+  },
+  {
+    "name": "Dhruv Rathee",
+    "text": "Learning how to research properly is a superpower. Always check the original source before you share any information.",
+    "engagement": 28640
+  },
+  {
+    "name": "Dhruv Rathee",
+    "text": "Building a creator business: diversify your income. Don't rely on one platform's algorithm to pay your bills.",
+    "engagement": 22930
+  },
+  {
+    "name": "Tanmay Bhat",
+    "text": "Creators, stop chasing virality. Build a body of work you're proud of. One viral video brings views, a hundred good ones build a career.",
+    "engagement": 21330
+  },
+  {
+    "name": "Tanmay Bhat",
+    "text": "Comedy taught me that failure on stage is the fastest way to learn. Every bombed set made me a better writer.",
+    "engagement": 19670
+  },
+  {
+    "name": "Tanmay Bhat",
+    "text": "Mental health is health. Therapy helped me more than any productivity hack ever did. Talk to someone.",
+    "engagement": 27450
+  }
+]
