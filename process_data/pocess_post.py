@@ -121,7 +121,7 @@ def get_unified_tags(processed_posts):
     return call_llm(prompt)
 
 
-def process_posts(raw_post_path=RAW_POST_PATH):
+def process_posts(raw_post_path=RAW_POST_PATH, output_path=ENRICHED_POST_PATH):
     posts = load_posts(raw_post_path)
     processed_posts = []
     for i, post in enumerate(posts):
@@ -137,10 +137,11 @@ def process_posts(raw_post_path=RAW_POST_PATH):
             if unified_tag not in new_tags:
                 new_tags.append(unified_tag)
         post["tags"] = new_tags
+
+    save_posts(processed_posts, output_path)
+    print(f"Saved {len(processed_posts)} posts to {output_path}")
     return processed_posts
 
 
 if __name__ == "__main__":
-    processed_posts = process_posts(RAW_POST_PATH)
-    save_posts(processed_posts, ENRICHED_POST_PATH)
-    print(f"Saved {len(processed_posts)} posts to {ENRICHED_POST_PATH}")
+    process_posts(RAW_POST_PATH, ENRICHED_POST_PATH)
