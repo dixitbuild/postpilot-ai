@@ -32,6 +32,9 @@ class FewShotPosts:
     def get_tags(self):
         return self.unique_tags
 
+    def get_names(self):
+        return sorted(self.df["name"].unique())
+
     def get_filtered_posts(self, language=None, tag=None, name=None, size=None):
         df = self.df
         if name:

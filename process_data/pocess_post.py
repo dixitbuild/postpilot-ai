@@ -1,17 +1,11 @@
 import json
 from pathlib import Path
 
-from dotenv import load_dotenv
-from groq import Groq
-
-load_dotenv()
+from llm_helper import call_llm
 
 # RAW_POST_PATH = Path(__file__).resolve().parent.parent / "data" / "raw_post.json"
 RAW_POST_PATH = "data/raw_post.json"
 ENRICHED_POST_PATH = "data/enriched_post.json"
-GROQ_MODEL = "openai/gpt-oss-120b"
-
-groq_client = Groq()  # reads GROQ_API_KEY from the environment
 
 METADATA_PROMPT_TEMPLATE = """You are an expert LinkedIn content analyst. Read the LinkedIn post below and extract its language and topic tags.
 
@@ -86,16 +80,6 @@ def build_metadata_prompt(post_text):
     return METADATA_PROMPT_TEMPLATE.format(post_text=post_text)
 
 
-def call_llm(prompt):
-    response = groq_client.chat.completions.create(
-        model=GROQ_MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        response_format={"type": "json_object"},
-        temperature=0,
-    )
-    return json.loads(response.choices[0].message.content)
-
-
 def extract_metadata(post):
     text = post["text"]
     # Extract metadata using python operations
@@ -106,7 +90,7 @@ def extract_metadata(post):
     }
     # Extract metadata using LLM
     prompt = build_metadata_prompt(text)
-    llm_metadata = call_llm(prompt)
+    llm_metadata = call_llm(prompt, json_output=True)
     metadata["language"] = llm_metadata["language"]
     metadata["tags"] = llm_metadata["tags"][:3]
     return {**post, **metadata}
@@ -118,7 +102,7 @@ def get_unified_tags(processed_posts):
         unique_tags.update(post["tags"])
 
     prompt = UNIFY_TAGS_PROMPT_TEMPLATE.format(tags=", ".join(sorted(unique_tags)))
-    return call_llm(prompt)
+    return call_llm(prompt, json_output=True)
 
 
 def process_posts(raw_post_path=RAW_POST_PATH, output_path=ENRICHED_POST_PATH):
