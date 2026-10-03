@@ -8,6 +8,7 @@ load_dotenv()
 
 # RAW_POST_PATH = Path(__file__).resolve().parent.parent / "data" / "raw_post.json"
 RAW_POST_PATH = "data/raw_post.json"
+ENRICHED_POST_PATH = "data/enriched_post.json"
 GROQ_MODEL = "openai/gpt-oss-120b"
 
 groq_client = Groq()  # reads GROQ_API_KEY from the environment
@@ -76,6 +77,11 @@ def load_posts(raw_post_path):
         return json.load(f)
 
 
+def save_posts(posts, output_path):
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(posts, f, indent=2, ensure_ascii=False)
+
+
 def build_metadata_prompt(post_text):
     return METADATA_PROMPT_TEMPLATE.format(post_text=post_text)
 
@@ -136,5 +142,5 @@ def process_posts(raw_post_path=RAW_POST_PATH):
 
 if __name__ == "__main__":
     processed_posts = process_posts(RAW_POST_PATH)
-    for post in processed_posts:
-        print(post["name"], post["tags"])
+    save_posts(processed_posts, ENRICHED_POST_PATH)
+    print(f"Saved {len(processed_posts)} posts to {ENRICHED_POST_PATH}")

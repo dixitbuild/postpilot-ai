@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Elon Musk",
+    "text": "The best part is no part. The best process is no process. Before you optimize anything, ask whether it should exist at all. Most engineering teams spend years perfecting things that should have been deleted.",
+    "engagement": 48210,
+    "line_count": 1,
+    "word_count": 35,
+    "char_count": 207,
+    "language": "English",
+    "tags": [
+      "Process Optimization",
+      "Engineering Management"
+    ]
+  },
+  {
+    "name": "Elon Musk",
+    "text": "Making life multiplanetary is the insurance policy for consciousness. Every rocket we land and reuse brings that future a little closer.",
+    "engagement": 51230,
+    "line_count": 1,
+    "word_count": 21,
+    "char_count": 136,
+    "language": "English",
+    "tags": [
+      "Space Exploration",
+      "Future of Humanity"
+    ]
+  },
+  {
+    "name": "Elon Musk",
+    "text": "Hiring tip: look for evidence of exceptional ability, not degrees. Ask candidates about the hardest problem they solved and how they solved it.",
+    "engagement": 39870,
+    "line_count": 1,
+    "word_count": 23,
+    "char_count": 143,
+    "language": "English",
+    "tags": [
+      "Recruitment",
+      "Interview Techniques"
+    ]
+  },
+  {
+    "name": "Satya Nadella",
+    "text": "Empathy is not a soft skill. It is the core of innovation. When we truly understand the unmet needs of our customers, we build products that matter. Grateful to our teams who lead with curiosity every day.",
+    "engagement": 32540,
+    "line_count": 1,
+    "word_count": 37,
+    "char_count": 205,
+    "language": "English",
+    "tags": [
+      "Innovation",
+      "Customer Experience",
+      "Leadership"
+    ]
+  },
+  {
+    "name": "Satya Nadella",
+    "text": "Every company is now a software company. The question is not whether to adopt AI, but how fast you can build the culture to use it well.",
+    "engagement": 28940,
+    "line_count": 1,
+    "word_count": 27,
+    "char_count": 136,
+    "language": "English",
+    "tags": [
+      "Artificial Intelligence",
+      "Digital Transformation",
+      "Company Culture"
+    ]
+  },
+  {
+    "name": "Satya Nadella",
+    "text": "A growth mindset beats a know-it-all culture. We moved from being know-it-alls to learn-it-alls, and it changed everything.",
+    "engagement": 35610,
+    "line_count": 1,
+    "word_count": 18,
+    "char_count": 123,
+    "language": "English",
+    "tags": [
+      "Growth Mindset",
+      "Company Culture"
+    ]
+  }
+]
