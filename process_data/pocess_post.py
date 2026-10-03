@@ -1,8 +1,16 @@
 import json
 from pathlib import Path
 
+from dotenv import load_dotenv
+from groq import Groq
+
+load_dotenv()
+
 # RAW_POST_PATH = Path(__file__).resolve().parent.parent / "data" / "raw_post.json"
 RAW_POST_PATH = "data/raw_post.json"
+GROQ_MODEL = "openai/gpt-oss-120b"
+
+groq_client = Groq()  # reads GROQ_API_KEY from the environment
 
 METADATA_PROMPT_TEMPLATE = """You are an expert LinkedIn content analyst. Read the LinkedIn post below and extract its language and topic tags.
 
@@ -46,22 +54,38 @@ def build_metadata_prompt(post_text):
     return METADATA_PROMPT_TEMPLATE.format(post_text=post_text)
 
 
+def call_llm(prompt):
+    response = groq_client.chat.completions.create(
+        model=GROQ_MODEL,
+        messages=[{"role": "user", "content": prompt}],
+        response_format={"type": "json_object"},
+        temperature=0,
+    )
+    return json.loads(response.choices[0].message.content)
+
+
 def extract_metadata(post):
     text = post["text"]
+    # Extract metadata using python operations
     metadata = {
         "line_count": len(text.splitlines()),
         "word_count": len(text.split()),
         "char_count": len(text),
     }
+    # Extract metadata using LLM
     prompt = build_metadata_prompt(text)
-    # TODO: send prompt to the LLM and add its "language" and "tags" to metadata
+    llm_metadata = call_llm(prompt)
+    metadata["language"] = llm_metadata["language"]
+    metadata["tags"] = llm_metadata["tags"][:3]
     return {**post, **metadata}
 
 
 def process_posts(raw_post_path=RAW_POST_PATH):
     posts = load_posts(raw_post_path)
     processed_posts = []
-    for post in posts:
+    for i, post in enumerate(posts):
+        if i >5:
+            break
         processed_posts.append(extract_metadata(post))
     return processed_posts
 

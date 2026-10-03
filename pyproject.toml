@@ -7,7 +7,10 @@ authors = [
     { name = "dixit", email = "dixitbuild@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "groq>=1.7.0",
+    "python-dotenv>=1.2.4",
+]
 
 [project.scripts]
 postpilot-ai = "postpilot_ai:main"
