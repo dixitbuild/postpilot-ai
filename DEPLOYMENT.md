@@ -2,6 +2,8 @@
 
 How PostPilot AI was deployed, what we used, and the problems we hit along the way.
 
+**Live app:** https://postpilot-ai.streamlit.app/
+
 ## What we used
 
 | Thing | Why |

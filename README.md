@@ -4,6 +4,8 @@ PostPilot AI generates LinkedIn posts in the style of well-known influencers. Yo
 
 It uses [Groq](https://groq.com) for the LLM and [Streamlit](https://streamlit.io) for the dashboard.
 
+**Live app:** https://postpilot-ai.streamlit.app/
+
 ## How it works
 
 The project runs in two steps.
